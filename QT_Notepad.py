@@ -3,7 +3,7 @@ from PyQt5.QtWidgets import *
 from PyQt5 import uic
 
 
-form_class = uic.loadUiType("C:\\PyQT Tutorial\\7. Notepad-MessageBox\\notepad.ui")[0]
+form_class = uic.loadUiType("C:\\PyQT\notepad.ui")[0]
 
 class WindowClass(QMainWindow, form_class):
     def __init__(self):
